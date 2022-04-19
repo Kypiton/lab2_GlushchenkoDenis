@@ -1,0 +1,36 @@
+#form{
+    
+    min-height: 25vh;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    
+
+}
+.input{
+    font-size: 25px;
+    font-family: Ubuntu-Bold;
+    color: #403866;
+    background-color: #e6e6e6;
+}
+input{
+    background: transparent;
+}
+#button{
+    font-family: Ubuntu-Bold;
+    font-size: 25px;
+    color: #fff;
+    height: 62px;
+    background-color: #827ffe;
+    border-radius: 3px;
+    width: 100%;
+
+}

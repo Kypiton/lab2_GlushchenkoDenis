@@ -1,0 +1,23 @@
+<form>
+    <div id="form">
+        <div class="input">
+                <input 
+                    type="text"
+                    [(ngModel)]="loginForm.login"
+                    id="login"
+                    required
+                    name="login"
+                    placeholder="Login" />
+        </div>
+        <div class="input">
+                <input 
+                    type="text"
+                    [(ngModel)]="loginForm.password"
+                    id="password"
+                    required
+                    name="password"
+                    placeholder="Password" />
+        </div>
+        <button id="button" (click)="login()">Log in</button>
+    </div>
+  </form>
